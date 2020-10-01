@@ -1,4 +1,4 @@
-public class TopManager extends Employee implements EmployeePosition{
+public class TopManager implements EmployeePosition{
     int companyEarnings;
     public void setName(String name) { this.name = name; }
     public String getName() {return name;}
